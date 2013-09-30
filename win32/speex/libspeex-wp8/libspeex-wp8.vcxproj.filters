@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\libspeex\preprocess.c" />
+    <ClCompile Include="..\..\..\libspeex\mdf.c" />
+    <ClCompile Include="..\..\..\libspeex\scal.c" />
+    <ClCompile Include="..\..\..\libspeex\jitter.c" />
+    <ClCompile Include="..\..\..\libspeex\fftwrap.c" />
+    <ClCompile Include="..\..\..\libspeex\bits.c" />
+    <ClCompile Include="..\..\..\libspeex\buffer.c" />
+    <ClCompile Include="..\..\..\libspeex\modes.c" />
+    <ClCompile Include="..\..\..\libspeex\modes_wb.c" />
+    <ClCompile Include="..\..\..\libspeex\resample.c" />
+    <ClCompile Include="..\..\..\libspeex\speex.c" />
+    <ClCompile Include="..\..\..\libspeex\speex_callbacks.c" />
+    <ClCompile Include="..\..\..\libspeex\speex_header.c" />
+    <ClCompile Include="..\..\..\libspeex\stereo.c" />
+    <ClCompile Include="..\..\..\libspeex\cb_search.c" />
+    <ClCompile Include="..\..\..\libspeex\filterbank.c" />
+    <ClCompile Include="..\..\..\libspeex\filters.c" />
+    <ClCompile Include="..\..\..\libspeex\kiss_fft.c" />
+    <ClCompile Include="..\..\..\libspeex\kiss_fftr.c" />
+    <ClCompile Include="..\..\..\libspeex\ltp.c" />
+    <ClCompile Include="..\..\..\libspeex\nb_celp.c" />
+    <ClCompile Include="..\..\..\libspeex\quant_lsp.c" />
+    <ClCompile Include="..\..\..\libspeex\sb_celp.c" />
+    <ClCompile Include="..\..\..\libspeex\smallft.c" />
+    <ClCompile Include="..\..\..\libspeex\vbr.c" />
+    <ClCompile Include="..\..\..\libspeex\vq.c" />
+    <ClCompile Include="..\..\..\libspeex\window.c" />
+    <ClCompile Include="..\..\..\libspeex\exc_5_64_table.c" />
+    <ClCompile Include="..\..\..\libspeex\exc_5_256_table.c" />
+    <ClCompile Include="..\..\..\libspeex\exc_8_128_table.c" />
+    <ClCompile Include="..\..\..\libspeex\exc_10_16_table.c" />
+    <ClCompile Include="..\..\..\libspeex\exc_10_32_table.c" />
+    <ClCompile Include="..\..\..\libspeex\exc_20_32_table.c" />
+    <ClCompile Include="..\..\..\libspeex\gain_table.c" />
+    <ClCompile Include="..\..\..\libspeex\gain_table_lbr.c" />
+    <ClCompile Include="..\..\..\libspeex\hexc_10_32_table.c" />
+    <ClCompile Include="..\..\..\libspeex\hexc_table.c" />
+    <ClCompile Include="..\..\..\libspeex\high_lsp_tables.c" />
+    <ClCompile Include="..\..\..\libspeex\lpc.c" />
+    <ClCompile Include="..\..\..\libspeex\lsp.c" />
+    <ClCompile Include="..\..\..\libspeex\lsp_tables_nb.c" />
+  </ItemGroup>
+</Project>

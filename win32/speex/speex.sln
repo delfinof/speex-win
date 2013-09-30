@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.20827.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libspeex-wp8", "libspeex-wp8\libspeex-wp8.vcxproj", "{3E9ADF85-78DC-4868-966D-7CC131D568AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WP8", "WP8", "{899A4D8B-6233-4D27-9DFD-920DA15E5759}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "W81", "W81", "{FB6E919B-E32C-4101-A318-C4EC28620FDF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libspeex-w81", "libspeex-w81\libspeex-w81.vcxproj", "{5846A1C4-B8B5-47FF-97D6-C346C4E8A474}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|ARM = Release|ARM
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E9ADF85-78DC-4868-966D-7CC131D568AC}.Debug|ARM.ActiveCfg = DebugWP8|ARM
+		{3E9ADF85-78DC-4868-966D-7CC131D568AC}.Debug|ARM.Build.0 = DebugWP8|ARM
+		{3E9ADF85-78DC-4868-966D-7CC131D568AC}.Debug|Win32.ActiveCfg = DebugWP8|Win32
+		{3E9ADF85-78DC-4868-966D-7CC131D568AC}.Debug|Win32.Build.0 = DebugWP8|Win32
+		{3E9ADF85-78DC-4868-966D-7CC131D568AC}.Debug|x64.ActiveCfg = DebugWP8|Win32
+		{3E9ADF85-78DC-4868-966D-7CC131D568AC}.Release|ARM.ActiveCfg = ReleaseWP8|ARM
+		{3E9ADF85-78DC-4868-966D-7CC131D568AC}.Release|ARM.Build.0 = ReleaseWP8|ARM
+		{3E9ADF85-78DC-4868-966D-7CC131D568AC}.Release|Win32.ActiveCfg = ReleaseWP8|Win32
+		{3E9ADF85-78DC-4868-966D-7CC131D568AC}.Release|Win32.Build.0 = ReleaseWP8|Win32
+		{3E9ADF85-78DC-4868-966D-7CC131D568AC}.Release|x64.ActiveCfg = ReleaseWP8|Win32
+		{5846A1C4-B8B5-47FF-97D6-C346C4E8A474}.Debug|ARM.ActiveCfg = DebugW81|ARM
+		{5846A1C4-B8B5-47FF-97D6-C346C4E8A474}.Debug|ARM.Build.0 = DebugW81|ARM
+		{5846A1C4-B8B5-47FF-97D6-C346C4E8A474}.Debug|Win32.ActiveCfg = DebugW81|Win32
+		{5846A1C4-B8B5-47FF-97D6-C346C4E8A474}.Debug|Win32.Build.0 = DebugW81|Win32
+		{5846A1C4-B8B5-47FF-97D6-C346C4E8A474}.Debug|x64.ActiveCfg = DebugW81|x64
+		{5846A1C4-B8B5-47FF-97D6-C346C4E8A474}.Debug|x64.Build.0 = DebugW81|x64
+		{5846A1C4-B8B5-47FF-97D6-C346C4E8A474}.Release|ARM.ActiveCfg = ReleaseW81|ARM
+		{5846A1C4-B8B5-47FF-97D6-C346C4E8A474}.Release|ARM.Build.0 = ReleaseW81|ARM
+		{5846A1C4-B8B5-47FF-97D6-C346C4E8A474}.Release|Win32.ActiveCfg = ReleaseW81|Win32
+		{5846A1C4-B8B5-47FF-97D6-C346C4E8A474}.Release|Win32.Build.0 = ReleaseW81|Win32
+		{5846A1C4-B8B5-47FF-97D6-C346C4E8A474}.Release|x64.ActiveCfg = ReleaseW81|x64
+		{5846A1C4-B8B5-47FF-97D6-C346C4E8A474}.Release|x64.Build.0 = ReleaseW81|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3E9ADF85-78DC-4868-966D-7CC131D568AC} = {899A4D8B-6233-4D27-9DFD-920DA15E5759}
+		{5846A1C4-B8B5-47FF-97D6-C346C4E8A474} = {FB6E919B-E32C-4101-A318-C4EC28620FDF}
+	EndGlobalSection
+EndGlobal
