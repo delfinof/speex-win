@@ -157,3 +157,9 @@ $RECYCLE.BIN/
 win32/speex/DebugW81/
 win32/speex/libspeex-w81/DebugW81/
 win32/speex/libspeex-wp8/DebugWP8/
+win32/speex/libspeex-wp8/ReleaseWP8/
+win32/speex/libspeex-w81/ARM/DebugW81/
+win32/speex/libspeex-w81/ARM/ReleaseW81/
+win32/speex/libspeex-w81/ReleaseW81/
+win32/speex/libspeex-wp8/ARM/DebugWP8/
+win32/speex/libspeex-wp8/ARM/ReleaseWP8/

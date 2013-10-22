@@ -57,7 +57,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugWP8|Win32'">
     <ClCompile>
-      <PreprocessorDefinitions>FLOATING_POINT;inline=__inline;EXPORT=;_USE_MATH_DEFINES;USE_SMALLFT;_LIB;%(PreprocessorDefinitions);FLOATING_POINT;inline=__inline;EXPORT=;_USE_MATH_DEFINES;USE_SMALLFT</PreprocessorDefinitions>
+      <PreprocessorDefinitions>FLOATING_POINT;inline=__inline;EXPORT=;_USE_MATH_DEFINES;USE_SMALLFT;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <AdditionalUsingDirectories>$(WindowsSDK_MetadataPath);$(AdditionalUsingDirectories)</AdditionalUsingDirectories>
@@ -74,7 +74,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseWP8|Win32'">
     <ClCompile>
-      <PreprocessorDefinitions>FLOATING_POINT;inline=__inline;EXPORT=;_USE_MATH_DEFINES;USE_SMALLFT;_LIB;NDEBUG;%(PreprocessorDefinitions);FLOATING_POINT;inline=__inline;EXPORT;_USE_MATH_DEFINES;USE_SMALLFT</PreprocessorDefinitions>
+      <PreprocessorDefinitions>FLOATING_POINT;inline=__inline;EXPORT=;_USE_MATH_DEFINES;USE_SMALLFT;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <AdditionalUsingDirectories>$(WindowsSDK_MetadataPath);$(AdditionalUsingDirectories)</AdditionalUsingDirectories>
@@ -91,7 +91,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugWP8|ARM'">
     <ClCompile>
-      <PreprocessorDefinitions>FLOATING_POINT;inline=__inline;EXPORT=;_USE_MATH_DEFINES;USE_SMALLFT;;FLOATING_POINT;inline=__inline;EXPORT;_USE_MATH_DEFINES;USE_SMALLFT;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>FLOATING_POINT;inline=__inline;EXPORT=;_USE_MATH_DEFINES;USE_SMALLFT;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <AdditionalUsingDirectories>$(WindowsSDK_MetadataPath);$(AdditionalUsingDirectories)</AdditionalUsingDirectories>
@@ -108,7 +108,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseWP8|ARM'">
     <ClCompile>
-      <PreprocessorDefinitions>FLOATING_POINT;inline=__inline;EXPORT=;_USE_MATH_DEFINES;USE_SMALLFT;_LIB;NDEBUG;%(PreprocessorDefinitions);FLOATING_POINT;inline=__inline;EXPORT;_USE_MATH_DEFINES;USE_SMALLFT</PreprocessorDefinitions>
+      <PreprocessorDefinitions>FLOATING_POINT;inline=__inline;EXPORT=;_USE_MATH_DEFINES;USE_SMALLFT;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <AdditionalUsingDirectories>$(WindowsSDK_MetadataPath);$(AdditionalUsingDirectories)</AdditionalUsingDirectories>
